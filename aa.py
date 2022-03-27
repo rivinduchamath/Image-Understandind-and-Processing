@@ -8,6 +8,7 @@ result = image.copy()
 
 image = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
 
+
 # lower boundary RED color range values; Hue (0 - 10)
 lower1 = np.array([0, 100, 20])
 upper1 = np.array([10, 255, 255])
